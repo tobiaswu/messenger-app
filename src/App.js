@@ -70,6 +70,11 @@ function App() {
           <Message key={id} username={username} message={message} />
         ))}
       </FlipMove>
+
+      <div style={{ fontSize: "10px" }}>
+        <a href="https://wupperfeld.org/impressum">Impressum</a>
+        <a href="https://wupperfeld.org/datenschutz">Datenschutz</a>
+      </div>
     </div>
   );
 }
